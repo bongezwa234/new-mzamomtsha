@@ -1,0 +1,38 @@
+.simpleForm input{
+	width: 100%;
+	margin: 4px 0px;
+	padding: 2px 4px;
+}
+.simpleForm button{
+	margin: 8px 0px;
+}
+
+.wrong-input{
+	border: 1px solid red;
+	animation: shake 0.5s;
+	animation-iteration-count: 2;
+}
+
+section {
+	--text: white;
+	--text-inverse: black;
+	--background: transparent;
+}
+.hero-section {
+	--text: black;
+	--text-inverse: white;
+	--background: white;
+	box-shadow: 0 3px 20px rgba(brown, 0.2);
+}
+
+.navbar_up{
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.navbar_down{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
